@@ -1,0 +1,19 @@
+{
+  "env": {
+    "es2020": true,
+    "jest/globals": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:jest/recommended",
+    "plugin:jest/style"
+  ],
+  "plugins": [
+    "jest"
+  ],
+  "rules": {
+    "semi": "error",
+    "quotes": ["error", "single"],
+    "jest/consistent-test-it": ["error", {"fn": "test"}]
+  }
+}
