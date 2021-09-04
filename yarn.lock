@@ -1214,6 +1214,11 @@ escodegen@^2.0.0:
   optionalDependencies:
     source-map "~0.6.1"
 
+eslint-plugin-jest-formatting@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest-formatting/-/eslint-plugin-jest-formatting-3.0.0.tgz#a9f45c7d8eabfb72692ec3899998613a3e63f868"
+  integrity sha512-XM1CHe1jX6j+t/NeppcVnm/1zgDAFqwiSLJEyLB7HDpcqBEGbbTFLSayCW2Q9y7VwcXrJbDAKRoO6vZ7jCmRFw==
+
 eslint-plugin-jest@^24.4.0:
   version "24.4.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-24.4.0.tgz#fa4b614dbd46a98b652d830377971f097bda9262"

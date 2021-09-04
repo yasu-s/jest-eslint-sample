@@ -9,11 +9,13 @@
     "plugin:jest/style"
   ],
   "plugins": [
-    "jest"
+    "jest",
+    "jest-formatting"
   ],
   "rules": {
     "semi": "error",
     "quotes": ["error", "single"],
-    "jest/consistent-test-it": ["error", {"fn": "test"}]
+    "jest/consistent-test-it": ["error", {"fn": "test"}],
+    "jest-formatting/padding-around-all": 1
   }
 }
