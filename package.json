@@ -2,7 +2,8 @@
   "name": "jest-eslint-sample",
   "version": "1.0.0",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:w": "jest --watch"
   },
   "devDependencies": {
     "@types/jest": "^27.0.1",
