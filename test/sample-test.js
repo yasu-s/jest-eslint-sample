@@ -11,15 +11,16 @@ describe('test', () => {
   });
 
   describe('aaa', () => {
-    test('includes3', () => {
-      // setup
-      const items = ['1', '2'];
-
+    test.each([
+      { items: ['1', '2'], target: '1', expected: true },
+      { items: ['1', '2'], target: '2', expected: true },
+      { items: ['1', '2'], target: '3', expected: false },
+    ])('Parameterized test - $target', ({ items, target, expected }) => {
       // exercise
-      const actual = items.includes('2');
+      const actual = items.includes(target);
 
       // verify
-      expect(actual).toBeTruthy();
+      expect(actual).toBe(expected);
     });
   });
 
